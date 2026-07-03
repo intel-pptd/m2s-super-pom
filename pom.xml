@@ -39,7 +39,7 @@
 		<dependency>
     <groupId>com.mulesoft.munit</groupId>
     <artifactId>munit-tools</artifactId>
-    <version>3.5.0</version>
+    <version>3.3.2</version>
     <classifier>mule-plugin</classifier>
     <scope>test</scope>
 </dependency>
@@ -63,7 +63,7 @@
 <dependency>
     <groupId>com.mulesoft.munit</groupId>
     <artifactId>munit-runner</artifactId>
-    <version>3.5.0</version>
+    <version>3.2.2</version>
     <classifier>mule-plugin</classifier>
     <scope>test</scope>
 </dependency>
@@ -87,7 +87,7 @@
 <dependency>
     <groupId>com.mulesoft.modules</groupId>
     <artifactId>mule-secure-configuration-property-module</artifactId>
-    <version>1.3.0</version>
+    <version>1.2.7</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -108,7 +108,7 @@
 <dependency>
     <groupId>org.mule.modules</groupId>
     <artifactId>mule-spring-module</artifactId>
-    <version>2.1.1</version>
+    <version>1.4.0</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -122,7 +122,7 @@
 <dependency>
     <groupId>com.mulesoft.connectors</groupId>
     <artifactId>mule-salesforce-connector</artifactId>
-    <version>11.2.3</version>
+    <version>11.2.0</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -143,7 +143,7 @@
 <dependency>
     <groupId>org.mule.connectors</groupId>
     <artifactId>mule-email-connector</artifactId>
-    <version>1.8.0</version>
+    <version>1.7.6</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -185,7 +185,7 @@
 <dependency>
     <groupId>org.mule.connectors</groupId>
     <artifactId>mule-file-connector</artifactId>
-    <version>1.5.5</version>
+    <version>1.5.2</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -206,7 +206,7 @@
 <dependency>
     <groupId>org.mule.connectors</groupId>
     <artifactId>mule-sftp-connector</artifactId>
-    <version>2.4.4</version>
+    <version>2.5.0</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -248,7 +248,7 @@
 <dependency>
     <groupId>org.mule.weave</groupId>
     <artifactId>assertions</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <scope>test</scope>
 </dependency>
 
@@ -290,7 +290,7 @@
 <dependency>
     <groupId>com.mulesoft.connectors</groupId>
     <artifactId>mule4-snowflake-connector</artifactId>
-    <version>1.3.2</version>
+    <version>1.3.1</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -304,7 +304,7 @@
 <dependency>
     <groupId>org.mule.connectors</groupId>
     <artifactId>mule-http-connector</artifactId>
-    <version>1.10.3</version>
+    <version>1.10.0</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -338,8 +338,8 @@
 
 <dependency>
     <groupId>com.mysql</groupId>
-    <artifactId>mysql-connector-j</artifactId>
-    <version>9.2.0</version>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.1.0</version>
     <classifier>jar</classifier>
 </dependency>
 
@@ -353,7 +353,7 @@
 <dependency>
     <groupId>org.mule.modules</groupId>
     <artifactId>mule-json-module</artifactId>
-    <version>2.5.4</version>
+    <version>2.5.3</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -387,7 +387,7 @@
 <dependency>
     <groupId>org.mule.connectors</groupId>
     <artifactId>mule-wsc-connector</artifactId>
-    <version>1.11.2</version>
+    <version>1.11.0</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -401,7 +401,7 @@
 <dependency>
     <groupId>org.mule.modules</groupId>
     <artifactId>mule-validation-module</artifactId>
-    <version>2.0.9</version>
+    <version>2.0.6</version>
     <classifier>mule-plugin</classifier>
 </dependency>
 
@@ -428,7 +428,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
-    <version>5.3.43</version>
+    <version>5.3.27</version>
 </dependency>
 
 <dependency>
@@ -440,7 +440,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-core</artifactId>
-    <version>5.3.39</version>
+    <version>5.3.27</version>
 </dependency>
 
 <dependency>
@@ -455,6 +455,11 @@
     <version>5.19.6</version>
 </dependency>
 
+<dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-client</artifactId>
+      <version>5.19.6</version>
+    </dependency>
 <dependency>
     <groupId>com.cloudera.impala.jdbc</groupId>
     <artifactId>TCLIServiceClient</artifactId>
@@ -494,7 +499,7 @@
 <dependency>
     <groupId>org.springframework.security</groupId>
     <artifactId>spring-security-crypto</artifactId>
-    <version>5.8.18</version>
+    <version>6.5.10</version>
 </dependency>
 
 <dependency>
@@ -668,7 +673,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-core</artifactId>
-    <version>2.18.6</version>
+    <version>2.14.1</version>
 </dependency>
 
 <dependency>
@@ -692,7 +697,7 @@
 <dependency>
     <groupId>com.sap.cloud.db.jdbc</groupId>
     <artifactId>ngdbc</artifactId>
-    <version>2.19.15</version>
+    <version>2.4.59</version>
 </dependency>
 
 <dependency>
@@ -793,7 +798,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.15.4</version>
+    <version>2.14.1</version>
 </dependency>
 
 <dependency>
@@ -883,7 +888,7 @@
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-beans</artifactId>
-    <version>5.3.39</version>
+    <version>5.3.27</version>
 </dependency>
 
 <dependency>
