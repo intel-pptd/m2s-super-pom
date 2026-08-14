@@ -6,7 +6,7 @@
 	<!-- IMPORTANT: groupId can be your orgId -->
 	<groupId>com.intel.sc</groupId>
 	<artifactId>m2s-super-pom</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 
 	<!-- MUST be pom -->
 	<packaging>pom</packaging>
