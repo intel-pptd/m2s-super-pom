@@ -349,7 +349,7 @@
 			<dependency>
 				<groupId>org.mule.connectors</groupId>
 				<artifactId>mule-sockets-connector</artifactId>
-				<version>1.2.5</version>
+				<version>1.2.9</version>
 				<classifier>mule-plugin</classifier>
 			</dependency>
 
